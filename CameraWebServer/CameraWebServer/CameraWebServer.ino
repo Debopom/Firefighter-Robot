@@ -38,9 +38,6 @@
 const char* ssid = "UIU-STUDENT";
 const char* password = "12345678";
 
-//const char* ssid = "FBI Surveillance Drone";
-//const char* password = "01552380163";
-
 void startCameraServer();
 void setupLedFlash(int pin);
 
