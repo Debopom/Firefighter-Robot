@@ -1,8 +1,5 @@
-This project is an automated 4 wheeled robot that is designed to detect fire using computer vision and extinguish it using water. This robor is powered by 3.7v batteries. It uses YOLOv8 model to 
-detect the fire. This robot contains the following features:
-  1. Searching and detecting fire: Utilizing the ESP32-CAM with the servo motor the robot searches for fire in a 180 degree vision range being in a stationary position.
-     THe CAM takes pictures of each frame and runs it through the YOLO v8 model to confirm or deny the existance of fire. If fire is detected the ESP-32 CAM flash is turned on and a high value is sent to
-     the arduino along with the angle of the fire from the robot.
+This project is an automated 4 wheeled robot that is designed to detect fire using computer vision and extinguish it using water. This robor is powered by 3.7v batteries. It uses YOLOv8 model to detect the fire. This robot contains the following features:
+  1. Searching and detecting fire: Utilizing the ESP32-CAM with the servo motor the robot searches for fire in a 180 degree vision range being in a stationary position. The CAM takes pictures of each frame and runs it through the YOLO v8 model to confirm or deny the existance of fire. If fire is detected the ESP-32 CAM flash is turned on and a high value is sent to the arduino along with the angle of the fire from the robot.
   2. When the arduino recieves the high value the robot rotates itself to the angle degree which was sent from the ESP. The robot moves towards the fire with the ultrasonic sensor active in this stage.
      The robot will stop when the fire is within 10 cm. This task is done via the ultrasonic sensor.
   3. After stopping in the range of the fire the robot will spray water using the water pump on the fire. The ESP CAM will detect the precense of the fire. When the fire is extinguished the water pump stops
