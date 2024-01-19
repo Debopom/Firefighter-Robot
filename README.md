@@ -20,3 +20,5 @@ Components Used in the project:
   6. Water Pump: A low-cost, compact submersible pump motor that requires a 2.5–6V power supply to operate. Using as little as 220mA of current, it can require up to 120 liters every hour. 
   7. DC Gear Motor: A plastic-bodied gear motor measuring around 2.5 inches in length, 0.85 inches in width, and 0.7 inches in thickness is available. This gear motor operates efficiently within a
      voltage range of 4V to 7V, achieving a maximum speed of 180 revolutions per minute (rpm). Notably, the wheel is adaptable and can be installed on either side of the gear motor.
+![image](https://github.com/Sakib063/Firefighter-Robot/assets/61977755/810e8559-5312-48a1-92e1-7cca248e862e)
+![image](https://github.com/Sakib063/Firefighter-Robot/assets/61977755/6f4a7e80-3a62-4406-829c-52f44a0bf48c)
